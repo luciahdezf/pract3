@@ -1,0 +1,365 @@
+body 
+{
+    background-image: url('https://image.jimcdn.com/app/cms/image/transf/dimension=910x1024:format=png/path/s29c296e133fb354e/image/i76e239fe4ad7c838/version/1583179221/image.png');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+.cont-cate
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.exp
+{
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+}
+
+.grid 
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    gap: 3px; /* Espacio entre celdas */
+}
+
+.grid button 
+{
+    width: 100%; /* Los botones ocupan todo el espacio de la celda */
+    height: 100%;
+    font-size: 20px;
+    align-items: center;
+    border: 2px solid black;
+}
+
+#geo
+{
+    background-color: rgb(90, 189, 250);
+}
+
+#hist
+{
+    background-color: rgb(252, 236, 63);
+}
+
+#art
+{
+    background-color: rgb(115, 34, 201);
+}
+
+#entert
+{
+    background-color: rgb(224, 40, 175);
+}
+
+#spor
+{
+    background-color: rgb(248, 143, 38);
+}
+
+#sci
+{
+    background-color: rgb(101, 190, 133);
+}
+
+.cont-num
+{
+    display: flex;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    background-color: white;
+    top: 70%; 
+}
+
+.cont-res
+{
+    display: flex;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    top: 77%;   
+}
+
+a 
+{
+    text-decoration: none; /* Elimina el subrayado */
+    color: black; /* Cambia el color del texto a negro */
+}
+
+.geo-preg
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+}
+
+.hist-preg
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+}
+
+.art-preg
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+}
+
+.entert-preg
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+}
+
+.sci-preg
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+}
+
+.spor-preg
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+}
+
+.grid-resp-geo
+{
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 100px);
+    gap: 3px; /* Espacio entre celdas */
+}
+
+.grid-resp-geo button 
+{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    align-items: center;
+    border: 2px solid black;
+    background-color: rgb(90, 189, 250);
+}
+
+.grid-resp-hist
+{
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 100px);
+    gap: 3px; /* Espacio entre celdas */
+}
+
+.grid-resp-hist button 
+{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    align-items: center;
+    border: 2px solid black;
+    background-color: rgb(252, 236, 63);
+}
+
+.grid-resp-art
+{
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 100px);
+    gap: 3px; /* Espacio entre celdas */
+}
+
+.grid-resp-art button 
+{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    align-items: center;
+    border: 2px solid black;
+    background-color: rgb(115, 34, 201);
+}
+
+.grid-resp-entert
+{
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 100px);
+    gap: 3px; /* Espacio entre celdas */
+}
+
+.grid-resp-entert button 
+{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    align-items: center;
+    border: 2px solid black;
+    background-color: rgb(224, 40, 175);
+}
+
+.grid-resp-spor
+{
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 100px);
+    gap: 3px; /* Espacio entre celdas */
+}
+
+.grid-resp-spor button 
+{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    align-items: center;
+    border: 2px solid black;
+    background-color: rgb(248, 143, 38);
+}
+
+.grid-resp-sci
+{
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 100px);
+    gap: 3px; /* Espacio entre celdas */
+}
+
+.grid-resp-sci button 
+{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    align-items: center;
+    border: 2px solid black;
+    background-color: rgb(101, 190, 133);
+}
+
+.grid-preg 
+{
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.result 
+{
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.corr 
+{
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.final 
+{
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.geo
+{
+    background-color: rgb(90, 189, 250);
+}
+
+.hist
+{
+    background-color: rgb(252, 236, 63);
+}
+
+.art
+{
+    background-color: rgb(115, 34, 201);
+}
+
+.entert
+{
+    background-color: rgb(224, 40, 175);
+}
+
+.spor
+{
+    background-color: rgb(248, 143, 38);
+}
+
+.sci
+{
+    background-color: rgb(101, 190, 133);
+}
+
+#final
+{
+    top: 65%;
+    left: 50%;
+}
+
+
+
+

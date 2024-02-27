@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRIVIAL</title>
+    <link rel="stylesheet" href="design.css">
+    <script src="funcion.js"></script>
+</head>
+<body>
+    <button id="volver"><a href="index.html">Volver</a></button>
+    
+    <div class="cont-num">
+        <button onclick="numPreg()">Generar Número Aleatorio</button>
+    </div>
+    <div class="cont-res">
+        <p id="resultado"></p>
+    </div>
+
+    <div class="art-preg art">
+        <button id="mostPreg" onclick="artUrl() ; obtenerPreguntas()">Mostrar Preguntas</button>
+    </div>
+
+    <div class="grid-preg art" id="grid-preg"></div>
+
+    <div class="grid-resp-art" id="grid-resp"></div>
+
+    <div class="result art" id="result"></div>
+
+    <div class="corr art" id="corr"></div>
+
+    <div class="final art">
+        <button onclick="final()">Finalizar</button>
+    </div>
+    <div class="final art" id="final"></div>
+
+</body>
+</html>
